@@ -21,12 +21,13 @@ class UpdateNoteService {
     note_id,
     title,
     description,
-  }: IRequest): Promise<Note> {
+  }: IRequest): Promise<Note | undefined> {
     const note = await this.notesRepository.findById(note_id);
 
     if (!note) {
       // Todo
       console.log("Erro ao tentar encontrar nota");
+      return undefined;
     }
 
     note.title = title;
