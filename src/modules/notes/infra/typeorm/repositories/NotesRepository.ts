@@ -16,6 +16,11 @@ class NotesRepository implements INotesRepository {
     return note;
   }
 
+  public async findAll(): Promise<Note[]> {
+    const notes = await this.ormRepository.find();
+    return notes;
+  }
+
   public async create(noteData: ICreateNoteDTO): Promise<Note> {
     const note = this.ormRepository.create(noteData);
     await this.ormRepository.save(note);
