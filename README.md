@@ -11,17 +11,26 @@ De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 
 ## Instalação
 
-OS X & Linux:
-
+Após clonar o repositório 
+1 - instalar os pacotes
 ```sh
 yarn
 ```
+2 - conforme o arquivo ormconfig.json, modificar conforme seus dados do banco de dados necessário postgress instalado.
 
-Windows:
+3 - migrar os banco de dados.
 
 ```sh
-yarn
+yarn typeorm migration:run
 ```
+
+4 - iniciar o server.
+
+```sh
+yarn dev
+```
+
+O servidor irá iniciar na porta 3333.
 
 ## Exemplo de uso
 
