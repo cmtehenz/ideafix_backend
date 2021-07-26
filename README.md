@@ -38,14 +38,6 @@ Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado
 
 _Para mais exemplos, consulte a [Wiki][wiki]._ 
 
-## Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-```sh
-make install
-npm test
-```
 
 ## Histórico de lançamentos
 
@@ -64,7 +56,7 @@ npm test
 
 ## Meta
 
-Gustavo Costa – [@SeuNome](https://twitter.com/...) – cmtehenz@gmail.com
+Gustavo Costa – [@SeuNome](https://twitter.com/cmtehenz) – cmtehenz@gmail.com
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
@@ -72,7 +64,7 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/cmtehenz/ideafix_backend/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
