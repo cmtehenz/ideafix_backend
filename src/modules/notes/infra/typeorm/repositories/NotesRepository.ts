@@ -32,9 +32,8 @@ class NotesRepository implements INotesRepository {
     return this.ormRepository.save(note);
   }
 
-  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   public async delete(id: string) {
-    this.ormRepository.delete(id);
+    await this.ormRepository.delete(id);
   }
 }
 
